@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寻宝游戏</title>
+    <link rel="stylesheet" href="treasure.css">
+</head>
+<body>
+    <div class="container">
+        <h1>寻宝游戏</h1>
+        <button id="startButton">开始寻宝</button>
+        <button id="resetButton" style="display:none;">重置游戏</button>
+        <div id="output"></div>
+        <div id="clueOptions" style="display:none;">
+            <button id="clue1Button">选择线索 1</button>
+            <button id="clue2Button">选择线索 2</button>
+        </div>
+        <img id="treasureImage" src="" alt="" style="display:none; max-width: 100%; margin-top: 20px;">
+    </div>
+
+    <!-- 音乐播放器 -->
+    <audio id="backgroundMusic" src="M500001sgC9u3iuANz.mp3" preload="auto" loop></audio>
+    
+    <script src="treasure.js"></script>
+</body>
+</html>
+
